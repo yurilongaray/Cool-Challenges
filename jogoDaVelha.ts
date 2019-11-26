@@ -6,7 +6,7 @@ const inputValues = [
 ];
 let winner: string;
 
-function checkRowValuesAndChooseWinner(row) {
+function checkRowValuesAndChooseWinner(row: string[]) {
 
     if (row.every(value => value === row[0])) {
 
